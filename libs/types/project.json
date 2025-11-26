@@ -1,0 +1,21 @@
+{
+  "name": "@openhiregraph/types",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "root": "libs/types",
+  "sourceRoot": "libs/types/src",
+  "projectType": "library",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project types --web",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:tsc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/types",
+        "main": "libs/types/src/index.ts",
+        "tsConfig": "libs/types/tsconfig.lib.json",
+        "assets": ["libs/types/*.md"]
+      }
+    }
+  }
+}
