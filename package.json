@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/openhiregraph/openhiregraph/issues"
   },
-  "homepage": "https://github.com/openhiregraph/openhiregraph#readme"
+  "homepage": "https://github.com/openhiregraph/openhiregraph#readme",
+  "devDependencies": {
+    "nx": "22.1.2"
+  },
+  "nx": {}
 }
