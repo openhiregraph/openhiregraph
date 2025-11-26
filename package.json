@@ -1,0 +1,20 @@
+{
+  "name": "openhiregraph",
+  "version": "1.0.0",
+  "description": "**OpenHireGraph** is an open-source, candidate-first **semantic talent graph** that lets recruiters find people using **natural language**, not keywords.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openhiregraph/openhiregraph.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/openhiregraph/openhiregraph/issues"
+  },
+  "homepage": "https://github.com/openhiregraph/openhiregraph#readme"
+}
